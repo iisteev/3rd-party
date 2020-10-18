@@ -26,10 +26,17 @@
             <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/idea.desktop">idea.desktop</AdditionalFile>
         </AdditionalFiles>
         <RuntimeDependencies>
-            <Dependency>openjdk-8</Dependency>
+            <Dependency>openjdk-11</Dependency>
         </RuntimeDependencies>
     </Package>
     <History>
+        <Update release="54">
+            <Date>2020-0-18</Date>
+            <Version>2020.1.1</Version>
+            <Comment>Use openjdk-11 instead of openjdk-8</Comment>
+            <Name>iisteev</Name>
+            <Email>istevan.pc@outlook.com</Email>
+            </Update>
         <Update release="53">
             <Date>2020-05-02</Date>
             <Version>2020.1.1</Version>
